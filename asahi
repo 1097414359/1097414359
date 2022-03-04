@@ -8,3 +8,53 @@
 1097414359/1097414359 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+#define  _CRT_SECURE_NO_WARNINGS 1
+
+#include<stdio.h>	
+//int main()
+//{
+//	//char ch= 'A';
+//	//printf("%c\n",ch);
+//	//int age = 20;
+//	//printf("%d\n", age);
+//	//	long num = 100;
+//	//	printf("%d\n", num);
+//	//float f = 5.0;
+//	//printf("%f\n", f);
+//	/*printf("%d\n", sizeof(char));
+//	printf("%d\n", sizeof(int));
+//	printf("%d\n", sizeof(long));
+//	printf("%d\n", sizeof(long long));
+//	printf("%d\n", sizeof(short));
+//	printf("%d\n", sizeof(float));
+//	printf("%d\n", sizeof(double));*/
+////	return 0;
+//}
+
+//int main()
+//{
+//	//20
+//	short age = 20;//向内存申请两个字节=16bit位，用来存放20
+//	float weight = 95.6f;//向内存申请4个字节存放小数
+//	return 0;
+////}
+//int a = 100;
+//int main()
+//{
+//	int a = 10;
+//	printf("%d\n", a);
+//	return 0;
+//}
+
+int main()
+{//计算两个数的和
+	int num1 = 0;
+	int num2 = 0;
+	int sum = 0;
+	//输入数据-使用输入函数scanf
+	scanf("%d%d",&num1,&num2);   //取地址符号&	
+	 sum = num1 + num2;
+	printf("sum=%d\n", sum);
+
+	return 0;		
+}
