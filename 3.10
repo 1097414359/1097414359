@@ -1,0 +1,181 @@
+#define  _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+
+//
+//int main()
+//{
+//	int i = 100;
+//	int u = 0;
+//	while (i >= 100 && i <= 200)
+//	{
+//		u = i % 2;
+//		if (u == 1)
+//		{
+//			printf("%d ",i);
+//		}
+//		i++;
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	/*int ch = 0;*/
+//	//while ((ch = getchar() )!= EOF)
+//	//{
+//	//	putchar(ch);
+//	//}
+//	int ret = 0;
+//	int ch = 0;
+//	char password[20] = { 0 };
+//	printf("输入密码：>");
+//	scanf("%s", password);//缓冲区剩余一个\n
+//	//读取'\n'
+//	while (ch = getchar() != '\n')
+//	{
+//		;
+//	}//关键，把password剩余的字符取出缓冲区，使之为空
+//	printf("请确认(Y/N)");
+//	ret = getchar();
+//	if (ret == 'Y')
+//	{
+//		printf("确认成功");
+//	}
+//	else
+//	{
+//		printf("失败");
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	int ch = 0;
+//	while ((ch = getchar()) != EOF)
+//	{
+//		if (ch<'0' || ch>'9')
+//			continue;
+//			putchar(ch);
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	int i = 0;
+//	//初始化；条件判断；调整部分
+//	for (i = 1; i <= 10; i++)
+//	{
+//		if (i == 5)
+//			break;//contiune与while循环的区别，i++调整部分有差异
+//		printf("%d ", i);
+//	}
+//	return 0;
+//}
+//
+//int main()
+//{
+//	for (;;)
+//	{
+//		printf("hehe\n");
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	int i = 0;
+//	int j = 0;
+//	for (; i < 10; i++)
+//	{
+//		for (; j < 10; j++)//省略的差异
+//			printf("hehe\n");
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	int x, y;
+//	for (x = 0, y = 0; x < 2 && y < 5; ++x, y++)
+//	{
+//		printf("hehe\n");
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	int i = 0;
+//	int j = 0;
+//	for (i = 0, j = 0; j = 0; i++, j++)
+//		j++;
+//
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a = 1;
+//	do
+//	{
+//		if (a == 5)
+//			break;//continue;
+//		printf("%d ", a);
+//		a++;
+//	} while (a <= 10);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int i = 0;
+//	int n = 0;
+//	int ret = 1;
+//	scanf("%d", &n);
+//	for (i = 1;i<=n; i++)
+//	{
+//		ret = ret*i;
+//			
+//	}
+//	printf("ret=%d\n", ret);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int i = 0;
+//	int n = 0;
+//	int ret = 1;
+//	int sum = 0;
+//	for (n = 1; n <= 10; n++)
+//	{
+//		ret = 1;
+//for (i = 1; i <= n; i++)
+//	{
+//		ret = ret*i;
+//
+//	}
+//sum = sum + ret;
+//	}
+//	
+//	printf("sum=%d\n", sum);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int i = 0;
+//	int n = 0;
+//	int ret = 1;
+//	int sum = 0;
+//	for (n = 1; n <= 10; n++)
+//	{
+//			ret = ret*n;
+//		sum = sum + ret;
+//	}
+//
+//	printf("sum=%d\n", sum);
+//	return 0;
+//}
+
